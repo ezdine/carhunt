@@ -10,7 +10,7 @@ if(!$con)
 	else
 	{
 		
-		mysqli_select_db($con,"carurl");
+        mysqli_select_db($con,"carurl");
         $result=mysqli_query($con,"SELECT review_url,price,image_url FROM carurl WHERE carid='contigtv8'");
         $row=mysqli_fetch_array($result);
         if(!$result)
