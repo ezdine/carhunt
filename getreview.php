@@ -1,5 +1,4 @@
 <?php
-
 include_once ('simple_html_dom.php');
 $con=mysqli_connect('localhost','root','','carhunt');
 if(!$con)
