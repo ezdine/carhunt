@@ -10,7 +10,7 @@ $I->amOnPage('/login.php');
 $I->fillField('user','admin');
 $I->fillField('pass','welcome');
 $I->click('Login');
-$I->see('Add');
+$I->see('Add Dealer');
 
 
 /*
