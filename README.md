@@ -68,6 +68,8 @@ Scenario --
  I click "review"
  I see "Overview"
  PASSED
+------------------------------------------------------------
+Time: 7.23 seconds, Memory: 8.00MB
 */
 ?>
 ```
