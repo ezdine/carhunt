@@ -8,12 +8,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 ##Prerequisities
 
--1.Normalize.css
--2.Bootstrap.css
--3.Modernizr.js
--4.Animate.css
--5.Fontawesome
--6.simpledomparser
+1.-Normalize.css
+2.-Bootstrap.css
+3.-Modernizr.js
+4.-Animate.css
+5.-Fontawesome
+6.-simpledomparser
 
 ##Installation
 
