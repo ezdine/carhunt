@@ -17,13 +17,14 @@ These instructions will get you a copy of the project up and running on your loc
 
 ##Installation
 
-1.Clone the Git Repo. Alternatively, download and extract into a folder.
-2.Copy the files to htdocs in XAMPP.
-3.Start local server and run it.
+1. Clone the Git Repo. Alternatively, download and extract into a folder.
+2. Copy the files to htdocs in XAMPP.
+3. Start local server and run it.
 
 ##Running the Tests
-1.Install Codeception.Follow steps in [Codeception](http://codeception.com/quickstart).
-2.Please make sure your local dev server is running.  Put application URL into:**tests/acceptance.suite.yml**
+1. Install Codeception.Follow steps in [Codeception](http://codeception.com/quickstart).
+2. Please make sure your local dev server is running.  Put application URL into:**tests/acceptance.suite.yml**.
+3. Test cases are included in **Tests** folder
 
 ######Test Example
 
@@ -31,7 +32,6 @@ These instructions will get you a copy of the project up and running on your loc
 <?php 
 //Acceptance test for Get review in User Panel
 $I = new AcceptanceTester($scenario);
-$I->wantTo('verify that the homepage welcomes me');
 $I->wantTo('perform actions and see result');
 $I->amOnPage('/index.php');
 
@@ -39,18 +39,12 @@ $option2 = $I->grabTextFrom('select#first-choice4 option:nth-child(2)');
 $I->selectOption("first-choice4", $option2);
 $I->sendAjaxGetRequest('/scripts.js', array('second-choice4' => true));
 sleep(2);
-
 $option2 = $I->grabTextFrom('select#second-choice4 option:nth-child(2)');
 $I->selectOption("second-choice4", $option2);
-
 $option2 = $I->grabTextFrom('select#third-choice4 option:nth-child(1)');
 $I->selectOption("third-choice4", $option2);
-
-
-
 $I->click("review");
 $I->see('Overview');
-
 /*
 Test Result
 
@@ -80,16 +74,16 @@ Scenario --
 
 ##Built With
 
-1.Sublime,Atom
-2.XAMPP
-3.Web Browser
-4.Codeception
-5.Filezilla
+1. Sublime,Atom
+2. XAMPP
+3. Web Browser
+4. Codeception
+5. Filezilla
 
 #Acknowledgements
 
-1.StackOverflow
-2.emicalculator.net
-3.SV.CO
+1. StackOverflow
+2. emicalculator.net
+3. SV.CO
 
 
