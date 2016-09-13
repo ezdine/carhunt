@@ -5,6 +5,7 @@ This is a responsive website which is meant to help a user find the car of his/h
 ##Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+[Wireframe](https://github.com/ezdine/carhunt/blob/master/wireframe/CarHunt.pdf) for the website.
 
 ##Prerequisities
 
@@ -18,7 +19,7 @@ These instructions will get you a copy of the project up and running on your loc
 ##Installation
 
 1. Clone the Git Repo. Alternatively, download and extract into a folder.
-2. Copy the files to htdocs in XAMPP.
+2. Copy the files to the webroot of your server.
 3. Start local server and run it.
 
 ##Running the Tests
@@ -81,11 +82,6 @@ Time: 7.23 seconds, Memory: 8.00MB
 3. Web Browser
 4. Codeception
 5. Filezilla
-
-#Acknowledgements
-
-1. StackOverflow
-2. emicalculator.net
-3. SV.CO
+6. Balsamiq
 
 
